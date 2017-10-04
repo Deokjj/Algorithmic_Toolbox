@@ -19,7 +19,7 @@ def gcd_euclidean(a,b):
 
 def lcm_fast(a, b):
     gcd = gcd_euclidean(a, b)
-    return int(a*b/gcd)
+    return a*b//gcd
 
 if __name__ == '__main__':
     input = sys.stdin.read()  # @ReservedAssignment
